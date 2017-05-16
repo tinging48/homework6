@@ -35,7 +35,7 @@
       </div>
       <form action="member.jsp" method="post">
         <div class="content">
-          <input name="account" type="text" class="input" placeholder="帳號（請輸入數字以便查詢）" autocomplete="off" autofocus required/><br>
+          <input name="account" type="text" class="input" placeholder="帳號" autocomplete="off" autofocus required/><br>
           <input name="password" type="password" class="input" placeholder="密碼（請輸入6-12字元）" pattern="[A-Za-z0-9]{6,12}" title="請輸入6-12字元" required/><br>
           <input name="name" type="text" class="input" placeholder="姓名" autocomplete="off"/><br>
           <input name="birth" type="text" class="input" placeholder="生日" autocomplete="off"/><br>
