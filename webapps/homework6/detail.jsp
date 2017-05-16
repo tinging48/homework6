@@ -20,7 +20,7 @@ request.setCharacterEncoding("UTF-8");
   String phone = request.getParameter("phone");
   try{
     database.connectDB();
-    String sql = "select * from person where account = " + account ;
+    String sql = "select * from person where account = " + "\""+account+"\"" ;
     database.query(sql);
     rs = database.getRS();
   }catch(Exception ex){
