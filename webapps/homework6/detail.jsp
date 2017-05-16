@@ -78,11 +78,7 @@ request.setCharacterEncoding("UTF-8");
       <td><%=phone1%></td>
     </tr>
 
-    <%}}else{%>
-    <div class="words">
-      <span>!無法查詢非數字之帳號!</span>
-    </div><br>
-    <%}%>
+    <%}}%>
 
     </table><br>
 
